@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body small{
+    text-align: center;
+    color: white;
+    margin-left: 40px;
+}
+body a{
+    text-decoration: none;
+    color: rgb(25, 21, 69);
+}
+.float-heading{
+    font-size: 4em;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+.iitr-logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+    float: left;
+}
+nav{top: 0;
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.logo{
+    position: fixed;
+    float: left;
+    margin-left: 40px;
+    top: 0;
+    height: 127px;
+    width: 160px;
+    z-index: 2;
+}
+.heading{
+    display: flex;
+    margin-left: 240px;
+    padding-top: 35px;
+    font-size: 2.3em;
+    font-family: 'Arvo', serif;
+}
+.nav-container{
+    display: flex;
+}
+.nav-elements{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 40px;
+    color: rgb(25, 21, 69);
+    font-size: 1.2em;
+}
+.home{
+    margin-left: 20%;
+}
+.box-4{
+    width: 100%;
+    height: 500px;
+    bottom: 0;
+    background-color: rgb(25, 21, 69);
+    margin-top: -100px;
+    clear: both;
+}
+.contacts-list{
+    width: 40%;
+    float: left;
+    align-items: center;
+}
+
+.line{
+    background-color: white;
+    width: 2px;
+    height: 390px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 55px;
+}
+
+.about{
+    width: 40%;
+    float: left;
+}
+
+.footer-about{
+    padding-top: 50px;
+    color: white;
+}
+.container-slide{
+    width: 45%;
+    height: 450px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#fa-icon{
+
+    margin-top: 70px;
+    font-size: 60px;
+    margin-left: 100px;
+    color: white;
+}
+
+body h1, h2{
+    color: rgb(25, 21, 69);
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px;
+
+} 
+.box{
+    margin-top: 200px;
+    margin-left: 16%;
+
+    height: 900px;
+}
+.cards{
+    float: left;
+    height: 390px;
+    width: 350px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(25, 21, 69);
+    font-size: 1.5em;
+    border: 25px solid #B88846;
+    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+}
+.img-all{
+    width: 100%;
+    height: 70%;
+}
+}
+.text{
+    width: 100%;
+    height: 30%;
+}
+/* nav-button */
+#nav-button{
+    height: 100%;
+    width: 100%;
+    display: none;
+    text-align: center;
+    margin-left: 30%;
+
+}
+#fa-icon-cut{
+    font-size:  30px;
+    color: white;
+    margin-left: 60%;
+    margin-top: 200px;
+}
+#fa-icon-open{
+    display: none;
+    color: rgb(25, 21, 69);
+    font-size: 30px;
+    margin-right: 15%;
+}
+.nav-elements1{
+    display: flex;
+    color: rgb(25, 21, 69);
+    font-size: 30px;
+    margin-right: 40px;
+}
+.color{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(25, 21, 69);
+    text-decoration: none;
+}
+.nav-heading{
+    font-size: 3em;
+    font-family: 'Arvo', serif;;
+}
+.nav-ele{
+    font-size: 1.0em;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.color a{
+    color: white;
+}
+#nav-button1{
+    margin-top: 200px;
+}
+@media screen and (max-width: 400px){
+
+    .logo{
+        float: left;
+        margin-left: 10px;
+        top: 0;
+        height: 110px;
+        width: 90px;
+        z-index: 2;
+    }
+    .heading{
+        display: flex;
+        margin-left: 99px;
+        padding-top: 20px;
+        font-size: 1.4em;
+        font-family: 'Arvo', serif;
+    }
+    nav{
+    top: 0;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    z-index: 1;
+    }
+    .nav-elements{
+        display: none;
+    }
+    .box-4{
+        bottom: 0;
+    }
+    .contacts-list{
+        width: 100%;
+    }
+    .line{
+        display: none;
+    }
+    #fa-icon{
+        margin-top: 40px;
+        font-size: 40px;
+        margin-left: 20px;
+        color: white;
+      }
+      #fa-icon-open{
+        display: block;
+        margin-right: 60px;
+    }
+    .footer-about{
+  margin-left: 20px;
+      }
+      .iitr-logo{
+        width: 200px;
+        height: 200px;
+        margin-left: 80px;
+        margin-top: 40px;
+        float: left;
+      }
+      .float-heading{
+          display: none;
+      }
+      .box-4{
+          height: 670px;
+      }
+      body small{
+        text-align: center;
+        color: white;
+        margin-left: 40px;
+        font-size: 0.8em;
+    }
+    .box{
+        margin-left: 0;
+        margin-top: 150px;
+        
+    }
+    .cards{
+        width: 87%;
+    }
+
+}
+@media screen and (min-width: 401px) and (max-width: 700px){
+
+    .logo{
+        float: left;
+        margin-left: 10px;
+        top: 0;
+        height: 110px;
+        width: 90px;
+        z-index: 2;
+    }
+    .heading{
+        display: flex;
+        margin-left: 99px;
+        padding-top: 20px;
+        font-size: 1.4em;
+        font-family: 'Arvo', serif;
+    }
+    nav{
+    top: 0;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    z-index: 1;
+    }
+    .nav-elements{
+        display: none;
+    }
+    .box-4{
+        bottom: 0;
+    }
+    .contacts-list{
+        width: 100%;
+    }
+    .line{
+        display: none;
+    }
+    #fa-icon{
+        margin-top: 40px;
+        font-size: 40px;
+        margin-left: 20px;
+        color: white;
+      }
+    #fa-icon-open{
+        display: block;
+        margin-left: 50%;
+    }
+    .footer-about{
+    margin-left: 37%;
+    width: 400px;
+      }
+      .iitr-logo{
+        width: 200px;
+        height: 200px;
+        margin-left: 77%;
+        margin-top: 40px;
+        float: left;
+      }
+      .float-heading{
+          display: none;
+      }
+      .box-4{
+          height: 650px;
+      }
+      body small{
+        text-align: center;
+        color: white;
+        margin-left: 40px;
+        font-size: 0.8em;
+      }
+    
+    .box{
+        margin-left: 20px;
+        margin-top: 150px;
+        
+    }
+    .cards{
+        width: 87%;
+    }
+
+}
+@media screen and (min-width: 701px) and (max-width: 1200px){
+
+    .logo{
+        float: left;
+        margin-left: 10px;
+        top: 0;
+        height: 110px;
+        width: 90px;
+        z-index: 2;
+    }
+    .heading{
+        display: flex;
+        margin-left: 110px;
+        padding-top: 20px;
+        font-size: 1.4em;
+        font-family: 'Arvo', serif;
+    }
+    nav{
+    top: 0;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    z-index: 1;
+    }
+
+    .box-4{
+        bottom: 0;
+    }
+    #fa-icon{
+        margin-top: 80px;
+        font-size: 40px;
+        margin-left: 40px;
+        color: white;
+      }
+
+    
+    .box{
+        margin-left: 35px;
+        margin-top: 150px;
+        
+    }
+    .cards{
+
+        width: 40%;
+        margin-right: 30px;
+    }
+
+}
+@media screen and (min-width: 1201px) and (max-width: 1600px){
+
+    .logo{
+        float: left;
+        margin-left: 10px;
+        top: 0;
+        height: 110px;
+        width: 90px;
+        z-index: 2;
+    }
+    .heading{
+        display: flex;
+        margin-left: 110px;
+        padding-top: 20px;
+        font-size: 1.4em;
+        font-family: 'Arvo', serif;
+    }
+    nav{
+    top: 0;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    z-index: 1;
+    }
+
+    .box-4{
+        bottom: 0;
+    }
+    #fa-icon{
+        margin-top: 80px;
+        font-size: 40px;
+        margin-left: 40px;
+        color: white;
+      }
+
+    
+    .box{
+        margin-left: 200px;
+        margin-top: 150px;
+        
+    }
+    .cards{
+        width: 24%;
+        margin-right: 25px;
+    }
+
+}
